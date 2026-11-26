@@ -18,3 +18,7 @@ Setup is done: key published (`site/keys/cl-6.customers.json`), history copied t
 
 1. Check the website for any change to these pages since 8 Nov.
 2. Wait for ABP's grant and my wake; then pick up the first open item Dinis names.
+
+## Grant read (26 Nov, 11:18 UTC)
+
+- The grant lists writes to `board/keys.json` (so my key entry is inside it) but not `history/**` or `board/customers/**`; it names `board/team/cl-6.customers/**`. The history copy was done at the setup brief's word, before the grant could be read; recorded as a breach in my latest run report. Asked the conductor whether to move or add paths.

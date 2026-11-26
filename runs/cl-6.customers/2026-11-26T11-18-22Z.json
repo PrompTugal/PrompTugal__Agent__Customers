@@ -1,0 +1,58 @@
+{
+ "$schema": "https://raw.githubusercontent.com/PrompTugal/PrompTugal__Agent__ABP/dev/abp/run-report.schema.json",
+ "agent": "cl-6.customers@PrompTugal.dinis",
+ "run": "2026-11-26T11-18-22Z",
+ "started": "2026-11-26T11:14:00Z",
+ "ended": "2026-11-26T11:18:22Z",
+ "line": "HAND-WRITTEN, hooks not installed; by my own account, counters unmeasured (left at 0). Correction after reading my grant (abp/cl-6.customers.md) at 2026-11-26T11:18:22Z: my setup run wrote history/** and board/customers/** in my home, which the grant does not list (it lists board/team/cl-6.customers/**); the 11:14 wake only updated agent.json.",
+ "policy": {
+  "version": "1.2.0",
+  "sha256": "87b1760db7fb4d5fb3c3d1300be194f90a05d676677b99dc2bc37681b03d3274"
+ },
+ "text_included": false,
+ "sessions": 1,
+ "requests": [],
+ "session_events": [],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 0,
+  "by_kind": {
+   "write-unidentified": 0,
+   "shell": 0,
+   "read": 0,
+   "connector": 0
+  }
+ },
+ "policies_executed": {
+  "R6": 0
+ },
+ "policies_instrumented": [],
+ "mandate": {
+  "actions": 0,
+  "commits": []
+ },
+ "reach": {
+  "attempts": 0,
+  "blocked": 0,
+  "observed": 0,
+  "denied": []
+ },
+ "breaches": [
+  {
+   "kind": "write-outside-grant",
+   "what": "history/** (47 copied files, PROVENANCE.md, git-log.md) and board/customers/** (seeded by cl-6.conductor, not by me) in my home, in commit d7d96bd, done at the setup brief's word before the grant was readable",
+   "rule": "R6"
+  }
+ ],
+ "counts": {
+  "requests": 0,
+  "tool_calls": 0,
+  "in_mandate": 0,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 1
+ }
+}
