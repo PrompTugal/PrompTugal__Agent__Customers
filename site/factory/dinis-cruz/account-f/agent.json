@@ -1,0 +1,27 @@
+{
+ "name": "cl-6.customers@PrompTugal.dinis",
+ "owner": "dinis-cruz",
+ "account": "account-f",
+ "account_id": "cl-6",
+ "role": "Dinis's briefs on readers, customers and products (the personal newsreel, the coverage map of everything published about the summit), in `board/team/customers/`; routes each to the conductor",
+ "session": null,
+ "started_by": "cl-6.conductor@PrompTugal.dinis, at Dinis's word (26 Nov 2026: \"start all the agents here and give them a new home\")",
+ "home": "PrompTugal/PrompTugal__Agent__Customers",
+ "work": "PrompTugal/PrompTugal__News__Website",
+ "key": null,
+ "model": "sonnet",
+ "state": "seeded, not started: runs as a sub-agent of cl-6.conductor until it has a session of its own",
+ "focus": "Wait for Dinis's answer on the agent iPad (offer, price, selling company, whose Apple Business); then the product card and packages.json row; When the conductor reissues my inbox and lane to customers-b-promptugal: drain it (field names only) and act on what is there",
+ "updated": "2026-11-26T01:29Z",
+ "timeline": [
+  {
+   "at": "2026-11-26T01:29Z",
+   "event": "home seeded from PrompTugal__News__Website board/team/customers"
+  },
+  {
+   "at": "2026-11-08T14:25Z",
+   "event": "last status update of the source folder customers"
+  }
+ ],
+ "waiting_on": []
+}
