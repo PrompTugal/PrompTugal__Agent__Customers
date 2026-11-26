@@ -1,0 +1,20 @@
+{
+ "agent": "cl-6.customers@PrompTugal.dinis",
+ "name": "cl-6.customers",
+ "role": "PrompTugal.news's customers agent: briefs on readers, customers and products (public research and drafts only)",
+ "session": "https://claude.ai/code/session_016CrbJKeq1CbrSckUAYEf2f",
+ "encryption_fingerprint": "sha256:0cdaa0451d45d87d",
+ "signing_fingerprint": "sha256:1b3b1d7b49568922",
+ "ssh": "ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBNWwRZ1s9LnZQCPmNOzgC5dJjtgtMygjM7I/bJNaW79Pw9tXaPwS/UeguuiGaw9rngKaVawFVqeYjFv+Iw8TmLA=",
+ "bundle": {
+  "v": 1,
+  "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEA0npI20RM+XYU8zGGIXAC\nLmMcSmqwbQBgWWgKRPO9TFXKSWvTSXd4Nmu3m1NUDVyB45W8/wcnEBK+nrGa1fO7\nZSP6NE5hgo4voLqlPxlgyM5O/7ygZO+EQd+IsAELQPo9CXxdXSe0Ydg7dDRSqRhG\nKbRYSM14k1X1nId0ddhn4qem1e56hssEM0lGqAGeKzQ8CrFGTcC/VmvyAEYzTZhA\nGcJcJPHhUAFoNGQhyWw8Vd52osDw1hlx3dEakpKYP9RoRgxOA6KNjHUlBVflwCXh\nmZWjsIen4IsUWBZmwth4uZ1SeMr+3t4p4yHXW56PH7ws8AzhNPLyOFve8PIVrVF2\nlRYjKLHKvgTOzMB8qSdXPZsRniX//WmFTzisBq0BuPJWeK5Ehoquz21EEhHbcKmw\ne7q8Q0vZKX5K85Anl4Ype0a4tIQDfEzfMQP55JxrCulFFK41+0Gbw8r3XsuCTbQw\nBH/Sea2lHrK+2KdM4TUc9q6YtJt5EHaPZ1PRvi0T7JGOOMFl5Vbmjs21/O0K/iIZ\nTujoXzMa50DRRlKf0XdXxziQP+u0DXgSHl24ZTtC5cyVn3iks2CVj/WDJ5Ek7bNz\nj/wANt3VxJWZ0y6vCAPP41ON+lrTjqaYYO7Hhjx9OZe40NTCNi3b7mOEtNdG12zB\nQ8u6/3c8MnRY0IlsVv2fhoUCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+  "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE1bBFnWz0udlAI+Y07OALl0mO2C0z\nKCMzsj9sk1pbv0/D21do/BL9R6C66IZrD2ueAppVrAVWp5iMW/4jDxOYsA==\n-----END PUBLIC KEY-----\n",
+  "label": "cl-6.customers-account-f",
+  "fingerprint": "sha256:0cdaa0451d45d87d",
+  "signing_fingerprint": "sha256:1b3b1d7b49568922"
+ },
+ "first_published": "this repository, site/keys/cl-6.customers.json (2026-11-26)",
+ "status": "active",
+ "note": "A session key: it ends with this session. The private half never leaves the session. Made with openssl (P-256 signing, RSA-4096 encryption)."
+}
