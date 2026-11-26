@@ -12,12 +12,12 @@
  "home": "https://github.com/PrompTugal/PrompTugal__Agent__Customers",
  "works_on": "https://github.com/PrompTugal/PrompTugal__News__Website",
  "history": "history/ (PROVENANCE.md, git-log.md)",
- "state": "setup done (key published, history copied, area written); wake set; no brief open; key not yet in the website's board/keys.json",
+ "state": "woke 08:43 UTC wake (read 11:14): no HOLD, no new brief from Dinis, nothing to route; R10 report filed (runs/cl-6.customers/); key still not in the website's board/keys.json",
  "waiting_on": [
   "cl-6.abp: grant for my paths in this home and in PrompTugal__News__Website (content/newsroom/customers/, content/newsroom/decisions/)",
   "My key into the website's board/keys.json: the push of my signed commit was blocked by the session's permission classifier (23 lines, one new entry, prepared and uncommitted in the website clone); needs a permission rule or the conductor to add it from site/keys/cl-6.customers.json",
   "Answers (via the conductor) on the open items in now.md"
  ],
- "updated": "2026-11-26T02:36Z",
+ "updated": "2026-11-26T11:14Z",
  "wake": "trig_01HfKscFoa5SG6YQjcfg92mV, 08:43 and 19:43 Lisbon (set by cl-6.conductor)"
 }
