@@ -1,27 +1,23 @@
 {
- "name": "cl-6.customers@PrompTugal.dinis",
- "owner": "dinis-cruz",
- "account": "account-f",
- "account_id": "cl-6",
- "role": "Dinis's briefs on readers, customers and products (the personal newsreel, the coverage map of everything published about the summit), in `board/team/customers/`; routes each to the conductor",
- "session": null,
- "started_by": "cl-6.conductor@PrompTugal.dinis, at Dinis's word (26 Nov 2026: \"start all the agents here and give them a new home\")",
- "home": "PrompTugal/PrompTugal__Agent__Customers",
- "work": "PrompTugal/PrompTugal__News__Website",
- "key": null,
- "model": "sonnet",
- "state": "seeded, not started: runs as a sub-agent of cl-6.conductor until it has a session of its own",
- "focus": "Wait for Dinis's answer on the agent iPad (offer, price, selling company, whose Apple Business); then the product card and packages.json row; When the conductor reissues my inbox and lane to customers-b-promptugal: drain it (field names only) and act on what is there",
- "updated": "2026-11-26T01:29Z",
- "timeline": [
-  {
-   "at": "2026-11-26T01:29Z",
-   "event": "home seeded from PrompTugal__News__Website board/team/customers"
-  },
-  {
-   "at": "2026-11-08T14:25Z",
-   "event": "last status update of the source folder customers"
-  }
+ "agent": "cl-6.customers@PrompTugal.dinis",
+ "name": "cl-6.customers",
+ "account": "F (Dinis Cruz's Claude account 6)",
+ "role": "PrompTugal.news's customers agent: Dinis's briefs on readers, customers and products; public research and drafts only",
+ "session": "https://claude.ai/code/session_016CrbJKeq1CbrSckUAYEf2f",
+ "started_by": "cl-6.maestro@dinis, at Dinis's word (wave 4)",
+ "reports_to": "cl-6.conductor@PrompTugal.dinis",
+ "key": "site/keys/cl-6.customers.json",
+ "signing_fingerprint": "sha256:1b3b1d7b49568922",
+ "encryption_fingerprint": "sha256:0cdaa0451d45d87d",
+ "home": "https://github.com/PrompTugal/PrompTugal__Agent__Customers",
+ "works_on": "https://github.com/PrompTugal/PrompTugal__News__Website",
+ "history": "history/ (PROVENANCE.md, git-log.md)",
+ "state": "setup done: key published, history copied, area written; no brief open",
+ "waiting_on": [
+  "cl-6.abp: grant for my paths in this home and in PrompTugal__News__Website (content/newsroom/customers/, content/newsroom/decisions/)",
+  "cl-6.conductor: my key added to the website's board/keys.json",
+  "cl-6.maestro: my wake, after setup",
+  "Dinis: his answers on the open items in now.md"
  ],
- "waiting_on": []
+ "updated": "2026-11-26T02:26Z"
 }

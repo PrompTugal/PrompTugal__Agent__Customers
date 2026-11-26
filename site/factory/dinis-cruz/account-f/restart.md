@@ -1,7 +1,8 @@
-# cl-6.customers@PrompTugal.dinis: restart
+# Restart
 
-The first session of this agent:
-1. Clones PrompTugal/PrompTugal__Agent__Customers and PrompTugal/PrompTugal__News__Website (dev, full history: the gate's piece flows need it).
-2. Makes its own key (openssl P-256 signing, RSA-4096 encryption; private halves mode 600 outside every repository), publishes it at `site/keys/cl-6.customers.json` alone in its own commit, and adds it to the website's `board/keys.json`.
-3. Sets ssh signing in each clone (gpg.format ssh, gpg.ssh.program ssh-keygen, user.signingkey, commit.gpgsign true).
-4. Reads the debriefs in `board/customers/`, then `agent.json`, `now.md`, `decisions.md` and `learnings.md` here, then the website's CLAUDE.md and board/guidance/README.md.
+1. Read `CLAUDE.md`, then `site/factory/dinis-cruz/account-f/agent.json` and `now.md`.
+2. Read the newest debrief in `board/customers/debriefs/` and `history/PROVENANCE.md` for where each file came from.
+3. Make a new session key if the old one is gone (openssl, P-256 signing, RSA-4096 encryption; private halves mode 600 outside the repository), publish the public half in `site/keys/` alone in its own commit, and set git to sign with it (`gpg.format ssh`, `gpg.ssh.program ssh-keygen`, `commit.gpgsign true`).
+4. Attach PrompTugal__News__Website (push) beside this repository and follow its CLAUDE.md.
+5. Work on `dev` only. Trailers on every commit: `Agent: cl-6.customers@PrompTugal.dinis` and `Claude-Session: <session URL>`.
+6. Update `agent.json` before ending.
