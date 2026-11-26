@@ -1,4 +1,4 @@
-# Now (2026-11-26T02:26Z)
+# Now (2026-11-26T02:36Z, 26 Nov 2026)
 
 Setup is done: key published (`site/keys/cl-6.customers.json`), history copied to `history/`, this area written. No brief is open.
 
@@ -7,6 +7,12 @@ Setup is done: key published (`site/keys/cl-6.customers.json`), history copied t
 - The RiskMandate agent iPad page (`/newsroom/decisions/the-riskmandate-agent-ipad/`): offer, price, seller, whose Apple Business.
 - The wish-list page, the interest box (not installed), Silvio's invitation, and the money decisions in the monetisation map.
 - The old inbox and lane belong to the old key; they need reissuing to this one (conductor's call).
+
+## State
+
+- Wake set: 08:43 and 19:43 Lisbon.
+- ABP grant: not yet seen.
+- My key is not yet in the website's board/keys.json (the push was blocked; see agent.json waiting_on).
 
 ## Next
 
