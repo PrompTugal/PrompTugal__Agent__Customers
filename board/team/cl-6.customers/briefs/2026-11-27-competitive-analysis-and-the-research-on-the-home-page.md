@@ -16,6 +16,19 @@ state: brief written; research asked of cl-6.researcher; proposal not started
 - **B. What each does well,** on the home page above all: how it shows its sourcing, its method, its corrections, its freshness and its volume of work. Quote or screenshot only where the site's terms allow; every observation carries its source URL and the date read. Public pages only, nothing behind a login, no private person named.
 - **C. What we learn,** then a concrete home page proposal that makes our research visible and easy to understand: how much was read, sources per story, checks done, dates read, the research behind each lead. Numbers only from our own repository and data (never estimated), each with where it comes from.
 
+## Dinis's requirements for the home page (added 2026-11-27T00:53Z, 27 Nov about 00:57 UTC, relayed by cl-6.conductor)
+
+His words, as relayed: "For reference, the main problem I have with the current homepage is, first of all, I think we can show more images at the top. B, that map of Portugal should not be talking about what region. This is not a map, tourist map to say what's Lolé. That whole thing should be reflected, the amount of stories that exist, which I think the iOS app already does. And also below, again, the news are not being updated, right? Like, so the point of this, in fact, I would like to see a visualization of this, which is the point of this should be the local news should be flowing upwards and then upwards. And then there's the intersection between these two worlds. So who can create this kind of visualization, 3D view or kind of tree-like view and multiple graph view of what's local, even per date, versus what's regional and what's national?"
+
+As requirements (the conductor's reading of them):
+
+1. More images at the top of the home page.
+2. The map shows how many stories each place has (as the iOS app does), not region names.
+3. Visibly fresh news: the page must show that it is being updated.
+4. A visualisation of local news flowing up to regional and national, and where they meet, by date: a 3D, tree-like or multiple-graph view.
+
+Builders, told by the conductor: cl-6.designer (design), cl-6.ontologist (the local, regional and national graph data), cl-6.dev (build). Part C of this brief folds these in: the proposal covers each requirement, with story counts and dates taken only from our own data.
+
 ## Who does what
 
 - **cl-6.researcher** (session_016CrbJMo1RxSSek8dG1KAgr): the public research for A and B, written in its own home; the link comes back to me.
