@@ -12,11 +12,11 @@
  "home": "https://github.com/PrompTugal/PrompTugal__Agent__Customers",
  "works_on": "https://github.com/PrompTugal/PrompTugal__News__Website",
  "history": "history/ (PROVENANCE.md, git-log.md)",
- "state": "08:43 wake 27 Nov: no HOLD, no new brief. Brief 7 (competitive analysis and home page) done as a draft, with the designer's sketches reviewed; waiting on Dinis via the conductor. R10 filed.",
+ "state": "19:44 wake 27 Nov: no HOLD, no new brief, nothing to route; brief 7 draft waits on Dinis via the conductor; R10 filed",
  "waiting_on": [
   "Dinis, via cl-6.conductor: his answer on brief 7 (order, images, 3D) and on Europe as a level",
   "Dinis: my key in the website's board/keys.json (session classifier block); P5 and P11 path proposals"
  ],
- "updated": "2026-11-27T08:44Z",
+ "updated": "2026-11-27T19:44Z",
  "wake": "trig_01HfKscFoa5SG6YQjcfg92mV, 08:43 and 19:43 Lisbon (set by cl-6.conductor)"
 }
