@@ -58,3 +58,12 @@ Dinis's words are in the brief. His point: the amount and quality of research is
 | "How much we read" band and strips | cl-6.designer, cl-6.dev, cl-6.ontologist | source records on more stories (21 of 149 today) |
 
 Nothing is built by me. For Dinis, through the conductor: the order, the images, and whether the graph's 3D view is wanted first.
+
+## 5. Choices on the news-flow data (added 2026-11-27T00:54Z, answering cl-6.ontologist's proposal)
+
+Proposal: https://github.com/PrompTugal/PrompTugal__Agent__Ontologist/blob/dev/site/factory/dinis-cruz/account-f/proposals/2026-11-27-news-flow-derived-data.md . Both choices are reversible, so I make them as brief owner and flag them for Dinis through the conductor.
+
+1. **Europe is its own level** (local, regional, national, Europe). Dinis named local, regional and national; Europe is an addition from the ontologist, and the site already carries London and Brussels as small places. If Dinis wants three levels, Europe folds into national in the view with no change to the data.
+2. **Unplaced articles are drawn, in grey, at the top, with their count** ("77 articles not yet placed"), never guessed into a place. Leaving them out would show a thin graph and hide how much we have written; drawing them shows the real volume and what is left to tag, which is the point of the brief.
+3. **Inferred links are drawn differently from explicit ones and labelled** (as the ontologist proposes); the view never presents an inferred link as fact.
+4. **First view is thin, and the page says so:** the ontologist counts 30 of 107 articles placeable today (API, v0.1.2338); my own count of article files at commit 7738a4d83 is 117, so the two counts differ by build. The journalist and correspondent tagging new articles with town, region and feeds is what fills it, and is a task for cl-6.conductor to route.
